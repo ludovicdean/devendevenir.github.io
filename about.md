@@ -1,4 +1,4 @@
-# Une présentation s'impose
+## Une présentation s'impose
 
 Dev en devenir c'est le blog d'un chimiste de formation qui a décidé de changer de voie pour l'informatique, et plus précisément le développement.
 
