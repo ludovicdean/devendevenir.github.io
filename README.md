@@ -1,6 +1,6 @@
 # Bienvenue sur Dev en devenir !
 
-**Encore** un blog qui veut tout expliquer sur le dev **???*** Non, mais faut arrêter le délire **!!!**
+**Encore** un blog qui veut tout expliquer sur le dev **???** Non, mais faut arrêter le délire **!!!**
 
 NON ! Ce blog ce n'est pas un blog de plus pour donner réponse à tout, c'est le blog d'un développeur "junior" de 36 ans qui se pose plein de questions.
 Le plus dur dans l'histoire est fréquemment de reconstituer les réponses à partir de sources multiples et de se créer sa propre documentation.
