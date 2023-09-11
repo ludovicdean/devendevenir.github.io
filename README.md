@@ -1,4 +1,6 @@
-# Bienvenue sur Dev en devenir !
+# Dev en devenir
+
+## Bienvenue sur Dev en devenir !
 
 **Encore** un blog qui veut tout expliquer sur le dev **???** Non, mais faut arrêter le délire **!!!**
 
