@@ -15,7 +15,7 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%-d %b, %Y" -%}
         <div class="card-header">{{ post.date | date: date_format }}</div>
         <div class="row">
-          <div class="col-3"><img src="{{post.image}}" class="align-middle" alt="..."></div>
+          <div class="col-3"><img src="{{site.url}}{{post.image}}" class="align-middle" alt="..."></div>
           <div class="col-9">
             <h3 class="pt-2 pb-0">
               <a class="card-body text-decoration-none" href="{{ post.url | relative_url }}">

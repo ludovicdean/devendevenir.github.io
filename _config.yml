@@ -22,8 +22,8 @@ title: Dev En Devenir
 email: ludovicd58@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Vous êtes développeur/se depuis peu ? Ce n'était pas votre métier initial ? Ce site est fait pour vous ! La reconversion est semée d'embûches et vous trouverez ici les réponses à mes interrogations, techniques comme méthodologiques.
-baseurl: "/devendevenir" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ludovicdean.github.io/devendevenir.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: ludovicdean
 
