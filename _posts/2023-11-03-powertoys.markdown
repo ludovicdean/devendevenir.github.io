@@ -52,7 +52,7 @@ Mon métier m'amène à travailler avec des écrans multiples, généralement 3 
 </p>
 
 <video autoplay="autoplay" loop="loop" width="768" height="512">
-  <source src="/images/powertoys-fancy-zones.webm" type="video/webm">
+  <source src="{{site.url}}/images/powertoys-fancy-zones.webm" type="video/webm">
 </video>
 <p style="text-align:justify;">
 Vous pouvez définir autant de zones que vous le souhaitez pour chacun de vos écrans. Il vous suffira ensuite lorsque vous déplacez une fenêtre de maintenir la touche **Maj** pour que les zones s'affichent. Quand le focus passe sur une zone, vous pouvez relâcher le clic, la fenêtre s'ajustera automatiquement à cette zone. Fini les mails ou les messages Teams ratés, vos fenêtres restent ouvertes.
@@ -67,7 +67,7 @@ Vos activités vous demandent de garder votre ordinateur actif ? PowerToys peut 
 </p>
 
 <video autoplay="autoplay" loop="loop" width="768" height="512">
-  <source src="/images/powertoys-awake.webm" type="video/webm">
+  <source src="{{site.url}}/images/powertoys-awake.webm" type="video/webm">
 </video>
 
 &nbsp;
@@ -79,7 +79,7 @@ Le développement web peut nous amener à rechercher des couleurs pour un site, 
 </p>
 
 <video autoplay="autoplay" loop="loop" width="768" height="512">
-  <source src="/images/powertoys-color-picker.webm" type="video/webm">
+  <source src="{{site.url}}/images/powertoys-color-picker.webm" type="video/webm">
 </video>
 
 &nbsp;
@@ -99,7 +99,7 @@ Il suffit d'appuyer sur **Alt+P** pour s'assurer que l'aperçu est bien activé 
 </p>
 
 <video autoplay="autoplay" loop="loop" width="768" height="512">
-  <source src="/images/powertoys-apercu.webm" type="video/webm">
+  <source src="{{site.url}}/images/powertoys-apercu.webm" type="video/webm">
 </video>
 
 &nbsp;
@@ -111,7 +111,7 @@ Parmi les développeurs il existe une espèce rare, les fous du clavier. Ils ont
 </p>
 
 <video autoplay="autoplay" loop="loop" width="768" height="512">
-  <source src="/images/powertoys-keyboard-manager.webm" type="video/webm">
+  <source src="{{site.url}}/images/powertoys-keyboard-manager.webm" type="video/webm">
 </video>
 <p style="text-align:justify;">
 Vous avez la possibilité de remapper les touches de votre clavier à l'échelle de votre ordinateur (peu adapté, ou en évitant les touches seules) ou à l'échelle d'une seule application, il faut alors utiliser le menu du bas de la fenêtre.
@@ -124,7 +124,7 @@ Quand je trie des photos il m'arrive de souhaiter renommer un ensemble de fichie
 </p>
 
 <video autoplay="autoplay" loop="loop" width="768" height="512">
-  <source src="/images/powertoys-power-rename.webm" type="video/webm">
+  <source src="{{site.url}}/images/powertoys-power-rename.webm" type="video/webm">
 </video>
 
 &nbsp;
