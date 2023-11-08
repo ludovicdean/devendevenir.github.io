@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">Articles</h1>
+  {%- endif -%}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">Articles</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li class="card">
+        {%- assign date_format = site.minima.date_format | default: "%-d %b, %Y" -%}
+        <div class="card-header">{{ post.date | date: date_format }}</div>
+        <div class="row">
+          <div class="col-3"><img src="{{post.image}}" class="align-middle" alt="..."></div>
+          <div class="col-9">
+            <h3 class="pt-2 pb-0">
+              <a class="card-body text-decoration-none" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            <div class="card-text px-5 pb-1 text-secondary">{{ post.excerpt }}</div>
+          </div>
+        </div>
+        
+        
+        <div class="card-footer">{{ post.categories }}</div>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {{ content }}
+  {%- endif -%}
+
+</div>
