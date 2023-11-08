@@ -9,7 +9,7 @@ image: "/images/powertoys.png"
 
 &nbsp;
 
-!["Bannière de l'article sur Powertoys"](/images/hal-gatewood-powertoys-unsplash.jpg)
+!["Bannière de l'article sur Powertoys"]({{site.url}}/images/hal-gatewood-powertoys-unsplash.jpg)
 Photo de <a href="https://unsplash.com/fr/@halacious?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hal Gatewood</a> sur <a href="https://unsplash.com/fr/photos/tastiera-del-computer-nera-Pr578ZCufII?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 ## Introduction
@@ -41,7 +41,7 @@ Powertoys c'est une application disponible [ici](https://learn.microsoft.com/fr-
 A l'instar de Notion qui est le maestro de l'info, PowerToys est le chef d'orchestre ultime pour votre ordinateur, qui va rajouter des fonctionnalités difficiles à quitter après y avoir goûté. Après ce rapide passage en revue des capacités de PowerToys, il est temps d'aborder plus en détail chacun de ses modules.
 </p>
 
-![Page d'accueil de PowerToys](/images/powertoys-homepage.png)
+![Page d'accueil de PowerToys]({{site.url}}/images/powertoys-homepage.png)
 
 &nbsp;
 
@@ -90,7 +90,7 @@ Le développement web peut nous amener à rechercher des couleurs pour un site, 
 Trouver un fichier, l'ouvrir, le parcourir, réaliser que ce n'est pas le bon, le fermer, recommencer. Fini le calvaire, les extensions de l'explorateur de fichier sont faites pour vous. Vous pouvez sélectionner pour quels types de fichiers vous souhaitez activer l'aperçu.
 </p>
 
-![Paramétrage des extensions de l'explorateur de fichiers Windows](/images/powertoys-explorateur-fichiers.png)
+![Paramétrage des extensions de l'explorateur de fichiers Windows]({{site.url}}/images/powertoys-explorateur-fichiers.png)
 
 &nbsp;
 
