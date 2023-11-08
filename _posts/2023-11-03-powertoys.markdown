@@ -4,7 +4,7 @@ title: "PowerToys, un ami qui vous veut du bien"
 date: 2023-11-03 14:42:45 +0100
 categories: Méthodologie, outils
 excerpt: "Windows a des limites, dépassez-les grâce à PowerToys, une application qui pimpera votre PC en quelques clics."
-image: "/devendevenir/images/powertoys.png"
+image: "https://github.com/ludovicdean/devendevenir.github.io/tree/main/images/powertoys.png"
 ---
 
 &nbsp;
