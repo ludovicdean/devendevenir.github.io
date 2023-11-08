@@ -4,7 +4,7 @@ title: "Notion, un outil aussi simple que puissant"
 date: 2023-11-02 14:42:45 +0100
 categories: Méthodologie, outils
 excerpt: "Découvrez un outil aux multiples facettes, qui deviendra votre assistant personnel pour organiser vos données et vos connaissances."
-image: "/images/notion.png"
+image: "/devendevenir/images/notion.png"
 ---
 
 &nbsp;
