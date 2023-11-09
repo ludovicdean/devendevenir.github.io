@@ -128,6 +128,8 @@ Mes deux principales utilisations de Notion à titre professionnel sont les suiv
 - un journal de développement
 - un wiki
 
+&nbsp;
+
 ### Journal de dev
 
 <p style="text-align:justify;">
@@ -158,6 +160,8 @@ A ce propos, Notion a l'avantage de prendre en charge la syntaxe Markdown, que m
 Quand on arrive sur un nouveau projet on est généralement submergé d'informations aussi nombreuses qu'importantes. Il ne serait pas pertinent de les incorporer à mon journal de dev puisque je serai amené à y revenir régulièrement. On peut donc créer plusieurs sections, à l'organisation spécifique au type d'informations qu'on souhaite y stocker.
 </p>
 
+&nbsp;
+
 #### Structurer les informations avec les pages
 
 <p style="text-align:justify;">
@@ -176,6 +180,8 @@ On peut le voir ici, les pages sont ici indépendantes les unes des autres et re
 <p style="text-align:justify;">
 Les pages permettent à la fois de conserver des informations mais également de structurer leur stockage. Il est possible de créer une arborescence de page très complexe sans risque de perdre quoi que ce soit.
 </p>
+
+&nbsp;
 
 #### Utiliser la barre de recherche
 
@@ -199,6 +205,8 @@ On peut voir ici qu'une recherche sur l'abréviation BDD rapporte des résultats
 La barre de recherche permet donc de retrouver des éléments dans l'ensemble de votre espace de travail, quelle que soit son organisation.
 </p>
 
+&nbsp;
+
 ### Mes fonctionnalités préférées
 
 <p style="text-align:justify;">
@@ -209,6 +217,8 @@ Notion présente trop de fonctionnalités pour toutes les présenter, en revanch
 - les blocs
 - l'intégration de documents
 - l'intégration des liens
+
+&nbsp;
 
 #### Le Markdown
 
@@ -231,6 +241,8 @@ System.Out.Println("HelloWorld")
 Le principal avantage du Markdown est de permettre de taper du texte tout en le mettant en forme sans à avoir à quitter son clavier pour atteindre un menu de mise en forme. Par ailleurs il est pris en charge par les navigateurs web, plus besoin donc de mettre en forme un texte avec des balises html pour le rendre "beau" et lisible.
 </p>
 
+&nbsp;
+
 #### Les blocs
 
 <p style="text-align:justify;">
@@ -246,6 +258,8 @@ L'une des forces de Notion est la palette de blocs qu'il offre à ses utilisateu
 <p style="text-align:justify;">
 Vous pourrez alors choisir le type d'élément à ajouter, titres, listes, menus déroulants, tableau, citation, séparateur et j'en passe. La liste évolue au cours de votre saisie, ce qui permet de filtrer les éléments que vous recherchez par mot-clé.
 </p>
+
+&nbsp;
 
 #### Les documents
 
@@ -295,6 +309,8 @@ Pas besoin d'être développeur pour utiliser Notion, l'application regorge de f
 La rédaction de posts se fait bien entendu sur des pages, je ne m'étendrai pas davantage dessus. En revanche je vais m'attarder sur les deux autres éléments et les détailler.
 </p>
 
+&nbsp;
+
 ### Gérer ses tâches
 
 <p style="text-align:justify;">
@@ -313,6 +329,8 @@ On trouve ici un tableau avec 3 colonnes représentant des statuts (à faire, en
 <p style="text-align:justify;">
 En réalité, ceci est une vue sous la forme d'un tableau d'une base de données de tâches avec un statut et un ensemble de caractéristiques.
 </p>
+
+&nbsp;
 
 ### Un livre de recettes 2.0
 
