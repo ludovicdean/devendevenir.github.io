@@ -5,13 +5,14 @@ date: 2023-11-02 14:42:45 +0100
 categories: Documentation, outils
 excerpt: "Faire de la documentation as code, c'est possible, avec la syntaxe Markdown. Ne quittez plus votre éditeur de code préféré, et concentrez-vous sur le fonds plus que la forme"
 image: "/images/markdown.png"
+banner: "/images/markus-winkler-hxCIfi47FgQ-unsplash.jpg"
+readingtime: "6 min"
 ---
 
 &nbsp;
 
-!["Bannière de l'article avec le logo de Markdown"]({{site.url}}/images/markdown-logo.png)
-
-# Markdown, la documentation as code
+!["Bannière de l'article avec le logo de Markdown"]({{site.url}}/images/markus-winkler-hxCIfi47FgQ-unsplash.jpg)
+Photo de <a class="text-decoration-none" href="https://unsplash.com/fr/@markuswinkler?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Markus Winkler</a> sur <a class="text-decoration-none" href="https://unsplash.com/fr/photos/machine-a-ecrire-noir-et-blanc-sur-tableau-blanc-hxCIfi47FgQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 ## Introduction
 

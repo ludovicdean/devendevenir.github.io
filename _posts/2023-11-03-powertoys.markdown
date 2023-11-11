@@ -5,16 +5,18 @@ date: 2023-11-03 14:42:45 +0100
 categories: Méthodologie, outils
 excerpt: "Windows a des limites, dépassez-les grâce à PowerToys, une application qui pimpera votre PC en quelques clics."
 image: "/images/powertoys.png"
+banner: "/images/hal-gatewood-powertoys-unsplash.jpg"
+readingtime: "5 min"
 ---
 
 &nbsp;
 
 !["Bannière de l'article sur Powertoys"]({{site.url}}/images/hal-gatewood-powertoys-unsplash.jpg)
-Photo de <a href="https://unsplash.com/fr/@halacious?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hal Gatewood</a> sur <a href="https://unsplash.com/fr/photos/tastiera-del-computer-nera-Pr578ZCufII?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo de <a class="text-decoration-none" href="https://unsplash.com/fr/@halacious?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Hal Gatewood</a> sur <a class="text-decoration-none" href="https://unsplash.com/fr/photos/tastiera-del-computer-nera-Pr578ZCufII?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 ## Introduction
 
-<p style="text-align:justify;">
+<p class="text-align:justify;">
 Après quelques années à travailler sur des ordinateurs sous Windows j'ai fréquemment rencontré des problématiques d'affichage dès lors que l'on a plus d'un écran.
 La multiplicité des périphériques d'affichage a l'avantage de pouvoir conserver plusieurs fenêtres simultanément visibles. 
 </p>
