@@ -4,7 +4,6 @@ layout: default
 
 <div class="home">
 <div class="py-5"><p class="fs-5">Un blog écrit <strong>par</strong> un développeur <strong>pour</strong> les développeurs !</p><p class="fs-5"> Quand je ne trouve pas d'infos je compile les infos que je trouve et j'écris l'article que j'aurais aimé trouver 😅</p></div>
-
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">Articles</h2>
     <ul class="post-list">
@@ -21,9 +20,7 @@ layout: default
             <div class="card-text text-secondary"><small>{{ post.date | date: date_format }}</small><p class="text-secondary">{{ post.excerpt }}</p></div>
           </div>
         </div>
-        
-        
-        <div class="card-footer bg-white">{{ post.categories | join: ' ' }}</div>
+        <div class="card-footer bg-white">{{ post.categories | join: ', ' }}</div>
       </li>
       {%- endfor -%}
     </ul>

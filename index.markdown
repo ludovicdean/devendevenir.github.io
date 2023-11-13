@@ -13,7 +13,7 @@ background: "/images/notion-banner.jpg"
         <div class="row">
           <div class="col-5"><img src="{{site.url}}/images/scott-webb-bmmcfZqSjBU-unsplash.jpg" class="img-fluid rounded" alt="..."></div>
           <div class="col-7 text-primary">
-              <a class="card-title text-decoration-none fs-3 " href="https://blog.maxds.fr/tests-fonctionnels-karate/">
+              <a class="card-title text-decoration-none fs-3 " href="#">
                 Slack, seulement un réseau social ?
               </a>
             <div class="card-text text-secondary"><small>11 Nov 2023</small><p class="text-secondary">L'épidémie de covid-19 a rendu le télétravail normal, et il a fallu développer des applications pour communiquer à distance aisément. Slack est l'une d'elles. Mais est-ce seulement un réseau social d'entreprise ?</p></div>
