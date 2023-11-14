@@ -27,6 +27,21 @@ url: "https://ludovicdean.github.io/devendevenir.github.io/" # the base hostname
 
 github_username: ludovicdean
 
+# Liste des catégories
+collections:
+  category:
+    output: true # générer la page HTML
+    permalink: /:collection/:name/index.html
+    # exemple -> /category/informatique/index.html
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+      # layout utilisé -> _layouts/category.html
+
 # Build settings
 theme: minima
 plugins:

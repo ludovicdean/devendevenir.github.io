@@ -3,8 +3,8 @@ layout: post
 title: "Le Markdown, le futur de la documentation"
 date: 2023-11-02 14:42:45 +0100
 categories:
-  - Documentation
-  - Outils
+  - documentation
+  - outils
 excerpt: "Faire de la documentation as code, c'est possible, avec la syntaxe Markdown. Ne quittez plus votre éditeur de code préféré, et concentrez-vous sur le fonds plus que la forme"
 image: "/images/markdown.png"
 banner: "/images/markus-winkler-hxCIfi47FgQ-unsplash.jpg"

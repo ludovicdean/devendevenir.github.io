@@ -3,6 +3,23 @@ layout: default
 ---
 
 <div class="home">
+  <div id="archives">
+    {% for category in site.categories %}
+      <div class="archive-group">
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <div id="#{{ category_name | slugize }}"></div>
+        <a href="{{ site.baseurl }}/category/{{ category_name | slugize }}">{{ category_name | slugize }}</a>
+    
+        <!-- <h3 class="category-head">{{ category_name }}</h3> -->
+        <!-- <a name="{{ category_name | slugize }}"></a> -->
+        <!-- {% for post in site.categories[category_name] %}
+        <article class="archive-item">
+          <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+        </article>
+        {% endfor %} -->
+      </div>
+    {% endfor %}
+    </div>
 <div class="py-5"><p class="fs-5">Un blog écrit <strong>par</strong> un développeur <strong>pour</strong> les développeurs !</p><p class="fs-5"> Quand je ne trouve pas d'infos je compile les infos que je trouve et j'écris l'article que j'aurais aimé trouver 😅</p></div>
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">Articles</h2>
