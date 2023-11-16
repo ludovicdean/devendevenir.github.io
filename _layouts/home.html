@@ -3,29 +3,54 @@ layout: default
 ---
 
 <div class="home">
-<div class="py-5"><p class="fs-5">Un blog écrit <strong>par</strong> un développeur <strong>pour</strong> les développeurs !</p><p class="fs-5"> Quand je ne trouve pas d'infos je compile les infos que je trouve et j'écris l'article que j'aurais aimé trouver 😅</p></div>
+  <div class="pb-5">
+    <p class="fs-5">
+      Un blog écrit <strong>par</strong> un développeur
+      <strong>pour</strong> les développeurs !
+    </p>
+    <p class="fs-5">
+      Quand je ne trouve pas d'infos je compile les infos que je trouve et
+      j'écris l'article que j'aurais aimé trouver 😅
+    </p>
+  </div>
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">Articles</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li class="card bg-light">
-        {%- assign date_format = site.minima.date_format | default: "%-d %b, %Y" -%}
-        <!-- <div class="card-header">{{ post.date | date: date_format }}</div> -->
-        <div class="row">
-          <div class="col-5"><img src="{{site.url}}{{post.banner}}" class="img-fluid rounded" alt="..."></div>
-          <div class="col-7 text-primary">
-              <a class="card-title text-decoration-none fs-3 " href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            <div class="card-text text-secondary"><small>{{ post.date | date: date_format }}</small><p class="text-secondary">{{ post.excerpt }}</p></div>
+  <h1 class="pb-5">Articles</h1>
+  <ul class="post-list">
+    {%- for post in site.externalpost -%}
+    <p>{{post.title}}</p>
+    <p>{{post.categories}}</p>
+    {% endfor %} {%- for post in site.posts -%}
+    <li class="card bg-light">
+      {%- assign date_format = site.minima.date_format | default: "%-d %b, %Y"
+      -%}
+      <!-- <div class="card-header">{{ post.date | date: date_format }}</div> -->
+      <div class="row">
+        <div class="col-5">
+          <img
+            src="{{site.url}}{{post.banner}}"
+            class="img-fluid rounded"
+            alt="..."
+          />
+        </div>
+        <div class="col-7 text-primary">
+          <a
+            class="card-title text-decoration-none fs-3"
+            href="{{ post.url | relative_url }}"
+          >
+            {{ post.title | escape }}
+          </a>
+          <div class="card-text text-secondary">
+            <small>{{ post.date | date: date_format }}</small>
+            <p class="text-secondary">{{ post.excerpt }}</p>
           </div>
         </div>
-        <div class="card-footer bg-white">{{ post.categories | join: ', ' }}</div>
-      </li>
-      {%- endfor -%}
-    </ul>
+      </div>
+      <div class="card-footer bg-white">
+        {{ post.categories | join: ', ' | capitalize }}
+      </div>
+    </li>
+    {%- endfor -%}
+  </ul>
 
-    {{ content }}
-  {%- endif -%}
-
+  {{ content }} {%- endif -%}
 </div>

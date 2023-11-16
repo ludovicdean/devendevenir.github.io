@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<h1>Catégories</h1>
+<div class="p-5 row row-cols-1 row-cols-md-2 g-4">
+  {% assign categories = site.categories | sort %} {% for category in categories
+  %} {% capture category_name %}{{ category | first }}{% endcapture %}
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">
+          <a
+            class="h2 text-primary text-decoration-none"
+            href="{{ site.baseurl }}/category/{{ category_name | slugize }}"
+            >{{ category_name | capitalize }}</a
+          >
+        </h3>
+        <p class="card-text">{{ category[1] | size }} articles</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
