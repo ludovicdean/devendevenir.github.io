@@ -32,7 +32,10 @@ collections:
   category:
     output: true # générer la page HTML
     permalink: /:collection/:name/index.html
+    fields:
+      - { description: description }
     # exemple -> /category/informatique/index.html
+  cookies:
 
 defaults:
   - scope:

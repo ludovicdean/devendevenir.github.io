@@ -7,11 +7,10 @@ layout: default
   <p class="fs-5">{{ page.description }}</p>
 
   <ul class="post-list">
-    {%- for post in site.posts -%}
+    {%- for post in site.categories[page.category] -%}
     <li class="card bg-light">
       {%- assign date_format = site.minima.date_format | default: "%-d %b, %Y"
       -%}
-      <!-- <div class="card-header">{{ post.date | date: date_format }}</div> -->
       <div class="row">
         <div class="col-5">
           <img
@@ -38,5 +37,39 @@ layout: default
       </div>
     </li>
     {%- endfor -%}
+  </ul>
+
+  <ul class="post-list">
+    {%- for cookie in site.cookies -%} {% if cookie.categories contains
+    page.category %}
+    <li class="card bg-light">
+      {%- assign date_format = site.minima.date_format | default: "%-d %b, %Y"
+      -%}
+      <div class="row">
+        <div class="col-5">
+          <img
+            src="{{site.url}}{{cookie.banner}}"
+            class="img-fluid rounded"
+            alt="..."
+          />
+        </div>
+        <div class="col-7 text-primary">
+          <a
+            class="card-title text-decoration-none fs-3"
+            href="{{ cookie.url }}"
+          >
+            {{ cookie.title | escape }}
+          </a>
+          <div class="card-text text-secondary">
+            <small>{{ cookie.date | date: date_format }}</small>
+            <p class="text-secondary">{{ cookie.excerpt }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer bg-white">
+        {{ cookie.categories | join: ', ' | capitalize }}
+      </div>
+    </li>
+    {%endif%} {%- endfor -%}
   </ul>
 </div>

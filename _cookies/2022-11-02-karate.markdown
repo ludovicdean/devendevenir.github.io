@@ -1,0 +1,12 @@
+---
+title: Mise en place de tests fonctionnels avec Karate
+date: 2022-11-02 14:42:45 +0100
+categories:
+  - outils
+  - test
+excerpt: "Vous avez des APIs et souhaitez mettre en place des tests fonctionnels automatisés ? Les intégrer à vos pipelines CI ? Vous trouverez ici toutes les infos dont vous avez besoin !"
+image: "/images/karate.png"
+banner: "/images/karate-banner.png"
+readingtime: "6 min"
+externalurl: "https://blog.maxds.fr/tests-fonctionnels-karate/"
+---
