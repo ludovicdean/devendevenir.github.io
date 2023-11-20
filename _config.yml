@@ -24,8 +24,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   "Vous êtes développeur/se depuis peu ? Ce n'était pas votre métier initial ? Ce site est fait pour vous !"
 git pushbaseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ludovicdean.github.io/devendevenir.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+author: Ludovic Déan
 
 github_username: ludovicdean
+linkedin_username: ludovic-dean
 
 # Liste des catégories
 collections:

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  <div class="pb-5">
+  <div class="pt-5">
     <p class="fs-5">
       Un blog écrit <strong>par</strong> un développeur
       <strong>pour</strong> les développeurs !
@@ -14,7 +14,7 @@ layout: default
     </p>
   </div>
   {%- if site.posts.size > 0 -%}
-  <h1 class="pb-5">Articles</h1>
+  <h1 class="pt-3 pb-5">Articles</h1>
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li class="card bg-light">
@@ -49,6 +49,12 @@ layout: default
   </ul>
 
   <h2 class="py-5">Autres articles</h2>
+  <div class="pt-3 pb-2">
+    <p class="fs-5">
+      Mon blog est tout récent mais j'ai également écrit ces articles sur le
+      blog de Max Digital Services.
+    </p>
+  </div>
   <ul class="post-list">
     {%- for cookie in site.cookies -%}
     <li class="card bg-light">
@@ -66,6 +72,7 @@ layout: default
           <a
             class="card-title text-decoration-none fs-3"
             href="{{ cookie.externalurl }}"
+            target="_blank"
           >
             {{ cookie.title | escape }}
           </a>
