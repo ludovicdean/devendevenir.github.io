@@ -2,7 +2,7 @@
 
 <div class="container d-flex justify-content-center">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand bolder fs-1" href="{{ "/" | relative_url }}"><div class="bg-primary py-0 px-2 text-white rounded-pill">Dev En Devenir</div></a>
+    <a class="navbar-brand bolder fs-3" href="{{ "/" | relative_url }}"><div class="bg-primary py-0 px-2 text-white rounded-pill">Dev En Devenir</div></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <select class="form-select fs-3 px-2 nav-link" onchange="location = this.value;">
+          <select class="form-select fs-5 px-2 nav-link" onchange="location = this.value;">
             <option selected>Catégories</option>
             {% assign categories = site.categories | sort %} {% for category in categories
               %} {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -19,7 +19,7 @@
           </select>
         </li>
         <li class="nav-item">
-          <a class="nav-link fs-3 px-2" href="{{site.url}}/about">À propos</a>
+          <a class="nav-link fs-5 px-2" href="{{site.url}}/about">À propos</a>
         </li>
       </ul>
     </div>

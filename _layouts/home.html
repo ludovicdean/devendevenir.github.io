@@ -14,7 +14,7 @@ layout: default
     </p>
   </div>
   {%- if site.posts.size > 0 -%}
-  <h1 class="py-5">Articles</h1>
+  <h1 class="py-5 fs-2">Articles</h1>
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li class="card bg-light">
@@ -28,16 +28,18 @@ layout: default
             alt="..."
           />
         </div>
-        <div class="col-7 text-primary">
+        <div class="col-7 text-primary p-3">
           <a
-            class="card-title text-decoration-none fs-3"
+            class="card-title text-decoration-none fs-3 lh-1"
             href="{{ post.url | relative_url }}"
           >
             {{ post.title | escape }}
           </a>
           <div class="card-text text-secondary">
-            <small>{{ post.date | date: date_format }}</small>
-            <p class="text-secondary">{{ post.excerpt }}</p>
+            <span style="font-size: small"
+              >{{ post.date | date: date_format }}</span
+            >
+            <p class="text-black pt-3">{{ post.excerpt }}</p>
           </div>
         </div>
       </div>
@@ -48,7 +50,7 @@ layout: default
     {%- endfor -%}
   </ul>
 
-  <h2 class="py-5">Autres articles</h2>
+  <h2 class="py-5 fs-2">Autres articles</h2>
   <div class="pt-3 pb-2">
     <p class="fs-5">
       Mon blog est tout récent mais j'ai également écrit ces articles sur le
@@ -65,20 +67,23 @@ layout: default
           <img
             src="{{site.url}}{{cookie.banner}}"
             class="img-fluid rounded"
+            style="height: 100%"
             alt="..."
           />
         </div>
-        <div class="col-7 text-primary">
+        <div class="col-7 text-primary p-3">
           <a
-            class="card-title text-decoration-none fs-3"
+            class="card-title text-decoration-none fs-3 lh-1"
             href="{{ cookie.externalurl }}"
             target="_blank"
           >
             {{ cookie.title | escape }}
           </a>
           <div class="card-text text-secondary">
-            <small>{{ cookie.date | date: date_format }}</small>
-            <p class="text-secondary">{{ cookie.excerpt }}</p>
+            <div style="font-size: small">
+              {{ cookie.date | date: date_format }}
+            </div>
+            <p class="text-black pt-3">{{ cookie.excerpt }}</p>
           </div>
         </div>
       </div>

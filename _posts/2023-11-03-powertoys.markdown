@@ -8,6 +8,7 @@ excerpt: "Windows a des limites, dépassez-les grâce à PowerToys, une applicat
 image: "/images/powertoys.png"
 banner: "/images/hal-gatewood-powertoys-unsplash.jpg"
 readingtime: "5 min"
+skip_toc: true
 ---
 
 &nbsp;
