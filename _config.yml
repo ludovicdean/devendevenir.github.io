@@ -39,6 +39,8 @@ collections:
     # exemple -> /category/informatique/index.html
   cookies:
 
+permalink: /:categories/:title
+
 defaults:
   - scope:
       path: ""

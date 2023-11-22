@@ -3,8 +3,7 @@ layout: post
 title: "PowerToys, un ami qui vous veut du bien"
 date: 2023-11-03 14:42:45 +0100
 categories:
-  - "méthodologie"
-  - "outils"
+  - outils
 excerpt: "Windows a des limites, dépassez-les grâce à PowerToys, une application qui pimpera votre PC en quelques clics."
 image: "/images/powertoys.png"
 banner: "/images/hal-gatewood-powertoys-unsplash.jpg"
