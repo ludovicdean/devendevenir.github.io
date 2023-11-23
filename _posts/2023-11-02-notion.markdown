@@ -9,6 +9,7 @@ excerpt: "Découvrez un outil aux multiples facettes, qui deviendra votre assist
 image: "/images/notion.png"
 banner: "/images/rubaitul-azad-notion-unsplash.jpg"
 readingtime: "11 min"
+skip_toc: true
 ---
 
 &nbsp;

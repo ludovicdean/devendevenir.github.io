@@ -9,6 +9,7 @@ excerpt: "Faire de la documentation as code, c'est possible, avec la syntaxe Mar
 image: "/images/markdown.png"
 banner: "/images/markus-winkler-hxCIfi47FgQ-unsplash.jpg"
 readingtime: "6 min"
+skip_toc: true
 ---
 
 &nbsp;
