@@ -3,13 +3,18 @@ layout: post
 title: "Créer un blog avec Jekyll"
 date: 2023-11-03 14:42:45 +0100
 categories:
-  - open source
+  - outils
 excerpt: "Jekyll, un générateur de site statique idéal pour créer son blog"
 image: "/images/powertoys.png"
-banner: "/images/hal-gatewood-powertoys-unsplash.jpg"
+banner: "/images/pankaj-patel-u2Ru4QBXA5Q-unsplash.jpg"
 readingtime: "5 min"
 skip_toc: true
 ---
+
+&nbsp;
+
+!["Bannière de l'article avec du code html"]({{site.url}}/images/pankaj-patel-u2Ru4QBXA5Q-unsplash.jpg)
+Photo de <a href="https://unsplash.com/fr/@pankajpatel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pankaj Patel</a> sur <a href="https://unsplash.com/fr/photos/monitor-acceso-che-mostra-il-linguaggio-di-programmazione-u2Ru4QBXA5Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 ## Introduction
 
@@ -40,14 +45,9 @@ Améliorer notre blog va nous faire examiner de plus près les entrailles de not
 
 ## Structure
 
-Un projet Jekyll est constitué de plusieurs packages aux rôles distincts :
+Un projet Jekyll est constitué de plusieurs packages aux rôles distincts sur la capture d'écran suivante.
 
-- \_includes
-- \_layouts
-- \_posts
-- \_site
-- \_assets
-
+![Alt text](/images/jekyll-arborescence.png)
 &nbsp;
 
 ### Includes
@@ -95,6 +95,7 @@ Les variables utilisées dans un layout seront valorisées lors de la compilatio
 Les posts sont des fichiers Markdown qui sont constitué d'un en-tête appelé FrontMatter et d'un contenu (désigné par content dans les layouts). Dans votre blog, ce seront vos articles.
 
 Le FrontMatter regroupe l'ensemble des métadonnées d'un article : layout, titre, catégorie, date, résumé etc. Ces métadonnées seront accessibles depuis l'extérieur des fichiers et permettront d'afficher les informations relatives à un article depuis la page d'accueil, ou depuis la page de la catégorie correspondante.
+&nbsp;
 
 ```
 ---
@@ -110,6 +111,7 @@ skip_toc: true
 ---
 ```
 
+&nbsp;
 Le contenu du fichier vient à la suite du FrontMatter avec l'ensemble des éléments Markdown nécessaires à sa mise en page (titres, médias, extraits de code etc.).
 
 &nbsp;
@@ -118,6 +120,8 @@ Le contenu du fichier vient à la suite du FrontMatter avec l'ensemble des élé
 
 Le package \_site contient l'ensemble des fichiers générés par Jekyll, il faut donc absolument ne pas travailler dans ce dossier, car à chaque compilation l'ensemble de ces fichiers est régénéré. Je l'ai appris à mes dépens au début de mon projet.
 
+&nbsp;
+![Contenu du répertoire _site.](../images/jekyll-site-package.png)
 &nbsp;
 
 ### Assets
@@ -145,6 +149,8 @@ Arrêtons nous sur les fichiers fondamentaux, le Gemfile ainsi que le fichier de
 Les projets Ruby, comme la plupart des projets, ont besoin de dépendances pour fonctionner, ces dépendances ayant des versions spécifiques. Le Gemfile a pour rôle de référencer l'ensemble des dépendances d'un projet avec leurs versions. C'est sur ce fichier que vas se baser **Bundler**, le gestionnaire de dépendances Ruby pour installer le nécessaire pour faire fonctionner un projet.
 
 &nbsp;
+![Structure du fichier Gemfile du projet.](/images/jekyll-gemfile.png)
+&nbsp;
 
 ### \_config.yml
 
@@ -160,6 +166,8 @@ Comme son nom l'indique le fichier \_config.yml contient les informations de not
 - le thème
 
 Le fichier a la structure suivante :
+
+&nbsp;
 
 ```yaml
 title: Mon Site Jekyll
@@ -185,6 +193,8 @@ collections:
     permalink: /:title
 ```
 
+&nbsp;
+
 On retrouve un paramètre nommé **theme** qui permet de préciser le nom du thème du site si on souhaite en utiliser un. Lors de la génération du projet le thème sera installé dans un dossier externe au projet. On peut retrouver leur emplacement avec cette commande :
 
 ```bash
@@ -197,7 +207,7 @@ bundle info --path minima
 
 Il existe une multitude de thèmes pour Jekyll que vous pouvez trouver [ici](http://jekyllthemes.org/) par exemple. Un thème contient un ensemble de fichiers, layouts, includes, assets à partir desquels le site va être généré. Pour modifier votre site il ne faut **surtout pas** modifier le thème en lui-même, mais créer un fichier au même nom que celui que vous aimeriez modifier dans votre thème avec votre propre contenu. Le fichier doit se trouver dans le même package que le fichier du thème lui-même.
 
-On peut voir juste ici le contenu du fichier layouts/layout.html du thème minima.
+On peut voir juste ici le contenu du fichier layouts/layout.html du thème minima. On voit qu'il diffère de ce qu'on avait dans le layout par défaut généré lors de la création du projet.
 
 ```html
 <!DOCTYPE html>
